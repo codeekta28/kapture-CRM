@@ -1,0 +1,156 @@
+/* tablets and under */
+@media(max-width:768px){
+body{
+    background-color: red;
+}
+nav>*:first-child{
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.kaptureLogo{
+    margin-top: 20px;
+    position: relative;
+    left: 69px;
+}
+.grid, .closeToCustomers .grid, .singlePlatform .grid,.tools .grid,.clients .grid,.try .grid,.stainleyDecker .grid,.stainleyDecker-Data.contact-center-main .grid,.kapture-suite-started .grid{
+    grid-template-columns: 1fr;
+    text-align: center;
+   
+}
+.contact-center-btm,.service-center-btm,.field-force-btm,.live-chat-btm,.self-serve-btm,.KMS-btm,.LMS-btm {
+    grid-template-columns: 1fr!important;
+    text-align: center;
+}
+.contact-btm-percentage,.service-btm-percentage,.field-btm-percentage,.live-chat-btm-percentage,.self-serve-btm-percentage,.KMS-btm-percentage,.LMS-btm-percentage  {
+    text-align: center;
+}
+
+.stainleyDecker-Data{
+    grid-template-rows: 1fr;
+    border: none;
+}
+.stainleyDecker-Data .item1{
+    font-size: 18px;
+}
+.stainleyDecker-Data .item2{
+    font-size: 18px;
+    padding: 20px 15px;
+}
+.stainleyDecker-Data .item2,.stainleyDecker-Data .item3,.stainleyDecker-Data .item4,.stainleyDecker-Data .item5,.stainleyDecker-Data .item6{
+    grid-column: 1/span 3;
+}
+.closeToCustomers-text{
+    justify-self: center;
+}
+.clients .container>*:first-child{
+    max-width: 350px;
+    justify-self: center;
+}
+.try .container>*:first-child{
+    justify-self: center;
+}
+.stainleyDecker{
+    height: auto;
+}
+.salesTools{
+    /* background-color: hotpink; */
+}
+.salesTools .container .grid{
+ 
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0px;
+}
+.salesTools .container .grid div{
+    margin: 0px;
+    border: none;
+    /* border-right: navajowhite; */
+    padding: 20px;
+}
+hr{
+    display: none;
+}
+.salesPipeline{
+    height: auto;
+}
+.pipeline{
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+}
+.pipeline div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* max-width: 48rem; */
+    /* border: 2px solid; */
+    margin: 20px;
+    
+
+}
+.pipeline div p{
+    margin-left: 2rem;
+}
+
+
+footer{
+    margin: 20px;
+}
+.subfooter .flex{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main{
+    padding: 0 1rem;
+}
+
+}
+
+
+/* phone */
+@media(max-width:500px){
+body{
+    background-color: yellow;
+    /* I will make the toggle btn ie responsive navigation when i will practice javascript */
+}
+.nav-items{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center!important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.closeToCustomers-text h2{
+    font-size: 2rem;
+}
+.tools h2,.clients h2{
+    font-size: 25px;
+}
+.clients .container>*:first-child{
+    max-width: 200px;
+    justify-self: center;
+    margin-top: 2rem;
+}
+.clients .container .company-logos {
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 4rem;
+}
+.headingWithLine h2{
+    border: none;
+}
+.headingWithLine h2 span{
+    background: none;
+    padding: 0px;
+}
+.salesTools .container .grid{
+ 
+    grid-template-columns:1fr;
+    grid-gap: 0px;
+}
+footer .grid{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+}
+

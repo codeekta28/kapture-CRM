@@ -1,0 +1,8 @@
+There is a background color and everything is in container including nav
+
+Header
+  -nav
+     --left logo somewhat space then items
+   --closeToCustomers section
+     -left->text with buttons
+     -right->image
